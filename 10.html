@@ -11,6 +11,11 @@
             {{todo.name}}
         </li>
     </ul>
+
+    <select>
+        <option ng-repeat="todo in todos">{{todo.name}} {{todo.completed}}</option>
+    </select>
+
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
 
