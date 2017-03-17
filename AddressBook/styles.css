@@ -16,6 +16,7 @@ h1{
     box-shadow: 5px 5px 5px #555;
     border-radius: 15px;
     padding: 10px;
+    background: white;
 }
 
 div.wrapper div.filter {
